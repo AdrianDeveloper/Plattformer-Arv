@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float moveForce = 25;
     [SerializeField]
-    float jumpForce = 300;
+    public float jumpForce = 300;
     [SerializeField, Range(1,10)]
     float maxVelocity;
     [SerializeField]
